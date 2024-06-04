@@ -34,7 +34,7 @@ function hideOverlay() {
   rivContainer.style.display = 'block';
 
   // Assuming you have a library like Riv.js loaded
-  const myRiv = new Riv(['https://CristianoClemente.github.io/preloaderJSLottie/logo.riv']); // Replace with actual RIV file path
+  const myRiv = new Riv(['https://cristianoclemente.github.io/preloaderJSLottie/logo.riv']); // Replace with actual RIV file path
   myRiv.addTo(rivContainer);
   myRiv.play(); // Start playback of the RIV animation
 }
